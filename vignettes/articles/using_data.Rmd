@@ -19,11 +19,9 @@ For summary statistics like mean and standard deviation you can use the base fun
 
 But because the data is in [long format](https://en.wikipedia.org/wiki/Wide_and_narrow_data) you must consider its structure in order to analyse it properly.
 
-Lets explore the mean weight for each time period. For that we can use `data.table` for ease (for details on data.table please see [this](https://rdatatable.gitlab.io/data.table/)).
+Lets explore the mean weight for each time period. For that we can use `data.table` for ease of use (for details on data.table please see [this](https://rdatatable.gitlab.io/data.table/)). It is worth noting that the `data.table` package is imported directly into the package when is loaded.
 
 ```{r}
-library(data.table)
-
 youngswimmers[, .(mean_weight = mean(weight, na.rm = TRUE)), period]
 ```
 
