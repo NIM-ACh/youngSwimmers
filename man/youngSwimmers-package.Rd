@@ -20,5 +20,17 @@ Useful links:
 \author{
 \strong{Maintainer}: Matías Castillo Aguilar \email{matcasti@umag.cl} (\href{https://orcid.org/0000-0001-7291-247X}{ORCID})
 
+Authors:
+\itemize{
+  \item Pablo Valdés-Badilla
+  \item Tomás Herrera-Valenzuela
+  \item Eduardo Guzmán-Muñoz
+  \item Pedro Delgado-Floody
+  \item David Cristóbal Andrade
+  \item Michele M. Moraes
+  \item Rosa M. E. Arantes
+  \item Cristian Núñez-Espinosa
+}
+
 }
 \keyword{internal}

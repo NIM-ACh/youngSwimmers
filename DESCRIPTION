@@ -2,8 +2,18 @@ Package: youngSwimmers
 Title: Elite young swimmers
 Version: 0.0.0.9000
 Authors@R: 
+    c(
     person("Matías", "Castillo Aguilar", , "matcasti@umag.cl", role = c("aut", "cre"),
-           comment = c(ORCID = "0000-0001-7291-247X"))
+           comment = c(ORCID = "0000-0001-7291-247X")),
+    person("Pablo", "Valdés-Badilla", role = "aut"), 
+    person("Tomás", "Herrera-Valenzuela", role = "aut"), 
+    person("Eduardo", "Guzmán-Muñoz", role = "aut"), 
+    person("Pedro", "Delgado-Floody", role = "aut"), 
+    person("David Cristóbal", "Andrade", role = "aut"), 
+    person("Michele M.", "Moraes", role = "aut"), 
+    person("Rosa M. E.", "Arantes", role = "aut"), 
+    person("Cristian", "Núñez-Espinosa", role = "aut")
+    )
 Description: Data from the young elite swimmers study.
 License: MIT + file LICENSE
 Encoding: UTF-8
