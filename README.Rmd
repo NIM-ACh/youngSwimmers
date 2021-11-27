@@ -1,0 +1,43 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# youngSwimmers
+
+<!-- badges: start -->
+[![R-CMD-check](https://github.com/NIM-ACh/youngSwimmers/workflows/R-CMD-check/badge.svg)](https://github.com/NIM-ACh/youngSwimmers/actions)
+[![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+<!-- badges: end -->
+
+Access data from the young elite swimmers study.
+
+## Installation
+
+You can install the development version of youngSwimmers from [GitHub](https://github.com/) with:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("NIM-ACh/youngSwimmers")
+```
+
+## Example
+
+This is a basic example which shows you how to access summary statistics:
+
+```{r example}
+library(youngSwimmers)
+
+summary(youngSwimmers[, 4:8])
+```
+
