@@ -5,7 +5,9 @@ title: "Using the youngswimmers dataset"
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
   collapse = TRUE,
-  comment = "#>"
+  comment = "#>",
+  warning = FALSE,
+  message = FALSE
 )
 ```
 
@@ -69,10 +71,9 @@ For this example lets plot the change of mean weight across time periods between
 plot_data <- youngswimmers[, .(sex, period, weight)][, na.omit(.SD)] 
 
 # Plot data using the mean
-plot_data[, interaction.plot(period, sex, weight, fun = mean)]
-
+with(plot_data, interaction.plot(period, sex, weight, fun = mean))
 # Now plot data using the median
-plot_data[, interaction.plot(period, sex, weight, fun = median)]
+with(plot_data, interaction.plot(period, sex, weight, fun = median))
 ```
 
 Quite an interesting picture! Now lets try a boxplot of weight across time grouped by sex (sounds hard to do, but not really). Here we will use `ggplot2` package, for details see [this](https://ggplot2.tidyverse.org).

@@ -1,2 +1,51 @@
 url: https://nim-ach.github.io/youngSwimmers
 
+
+
+template:
+  params:
+    bootswatch: flatly
+
+
+
+toc:
+  depth: 2
+
+
+
+navbar:
+  structure:
+    left: [home, reference, articles]
+    right: [news, github]
+  components:
+
+    home:
+      icon: fas fa-home fa-lg
+      href: index.html
+    reference:
+      icon: fab fa-r-project fa-lg
+      text: Documentation
+      href: reference/index.html
+    articles:
+      text: Articles
+      menu:
+      - text: data usage
+      - text: Using the youngswimmers dataset
+        href: articles/articles/using_data.html
+      - text: external links
+      - text: Original paper
+        href: https://doi.org/10.3389/fphys.2021.769085
+
+    news:
+      icon: fas fa-history fa-lg
+      href: news/index.html
+    github:
+      icon: fab fa-github fa-lg
+      href: https://github.com/NIM-ACh/youngSwimmers/
+
+
+
+reference:
+- title: All functions
+- subtitle: Dataset
+  contents: youngswimmers

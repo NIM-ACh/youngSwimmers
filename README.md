@@ -12,11 +12,22 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 status](https://www.r-pkg.org/badges/version/youngSwimmers)](https://CRAN.R-project.org/package=youngSwimmers)
 <!-- badges: end -->
 
-Access data from the young elite swimmers study.
+This <i class="fab fa-r-project"></i> package contains complementary
+tools for research reproducibility and exploratory data analysis for
+young elite swimmers study (link to original study
+[here](https://doi.org/10.3389/fphys.2021.769085)).
+
+## About <i class="fab fa-r-project"></i>
+
+<i class="fab fa-r-project"></i> is a high-level statistical programming
+language used for data analysis, as well for development creating
+software, websites, reports, applications, e-books, etc. For more info
+you can visit the [R-project](https://www.r-project.org/about.html)
+site.
 
 ## Installation
 
-You can install the development version of youngSwimmers from
+You can install the latest development version of youngSwimmers from
 [GitHub](https://github.com/) with:
 
 ``` r
@@ -43,11 +54,11 @@ summary(youngswimmers[, 4:6])
 #>                  NA's   :9
 ```
 
-For more information on the use of the package, please check the article
-[“Using the youngswimmers
-dataset”](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html).
-There you will find information for computing descriptive statistics and
-plotting functionalities.
+For more information on how to use the package and the data within,
+please visit the section [“Using the youngswimmers
+dataset”](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html)
+from our website. There you will find information for computing
+descriptive statistics and plotting functionalities.
 
 ## Citation
 

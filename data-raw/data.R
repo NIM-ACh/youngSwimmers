@@ -15,21 +15,6 @@ youngswimmers[, `:=`(
   subject = factor(subject)
 )]
 
-youngswimmers[, `:=`(
-  bmi = (weight / (height / 100) ^ 2),
-  ffmi = ((weight * (100 - fat) / 100) / (height / 100) ^ 2),
-  map = ((sp + 2 * dp) / 3),
-  pp = (sp - dp)
-)]
-
-setcolorder(
-  x = youngswimmers,
-  neworder = c("period", "subject", "sex", "age", "weight", "height", "fat",
-               "bmi", "ffmi", "sp", "dp", "map", "pp", "sdnn_pre", "rmssd_pre",
-               "vlf_pre", "lf_pre", "hf_pre", "sdnn_post", "rmssd_post", "vlf_post",
-               "lf_post", "hf_post", "power_peak", "power_mean", "power_min", "fatigue")
-)
-
 # Data exporting ------------------------------------------------------------------------------
 
 usethis::use_data(youngswimmers, overwrite = TRUE)
