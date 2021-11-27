@@ -26,4 +26,9 @@ URL: https://github.com/NIM-ACh/youngSwimmers,
     https://nim-ach.github.io/youngSwimmers
 BugReports: https://github.com/NIM-ACh/youngSwimmers/issues
 Imports: 
+    data.table,
     lifecycle
+Suggests: 
+    stats,
+    rmarkdown,
+    ggplot2
