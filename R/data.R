@@ -33,11 +33,8 @@
 #' - \code{power_peak}: Numeric. Peak power output in Watts.
 #' - \code{power_mean}: Numeric. Mean power output in Watts.
 #' - \code{power_min}: Numeric. Minimum power output in Watts.
-#' - \code{Fatigue}: Numeric. Fatigue index in percentage.
+#' - \code{fatigue}: Numeric. Fatigue index in percentage.
 #'
 #' @source
-#' Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P,
-#' Andrade DC, Moraes MM, Arantes RME and Núñez-Espinosa C (2021) Cardiac Autonomic Modulation in
-#' Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young
-#' Swimmers: A Longitudinal Study. Front. Physiol. 12:769085. doi: 10.3389/fphys.2021.769085
-"youngSwimmers"
+#' <https://doi.org/10.3389/fphys.2021.769085>
+"youngswimmers"
