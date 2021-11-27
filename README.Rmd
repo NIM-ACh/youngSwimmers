@@ -18,6 +18,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/NIM-ACh/youngSwimmers/workflows/R-CMD-check/badge.svg)](https://github.com/NIM-ACh/youngSwimmers/actions)
 [![Lifecycle: stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![CRAN status](https://www.r-pkg.org/badges/version/youngSwimmers)](https://CRAN.R-project.org/package=youngSwimmers)
 <!-- badges: end -->
 
 Access data from the young elite swimmers study.
@@ -38,6 +39,6 @@ This is a basic example which shows you how to access summary statistics:
 ```{r example}
 library(youngSwimmers)
 
-summary(youngSwimmers[, 4:8])
+summary(youngswimmers[, 4:8])
 ```
 

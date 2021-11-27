@@ -8,6 +8,8 @@
 [![R-CMD-check](https://github.com/NIM-ACh/youngSwimmers/workflows/R-CMD-check/badge.svg)](https://github.com/NIM-ACh/youngSwimmers/actions)
 [![Lifecycle:
 stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![CRAN
+status](https://www.r-pkg.org/badges/version/youngSwimmers)](https://CRAN.R-project.org/package=youngSwimmers)
 <!-- badges: end -->
 
 Access data from the young elite swimmers study.
@@ -30,7 +32,7 @@ statistics:
 ``` r
 library(youngSwimmers)
 
-summary(youngSwimmers[, 4:8])
+summary(youngswimmers[, 4:8])
 #>       age            weight          height           fat       
 #>  Min.   :10.00   Min.   :33.70   Min.   :147.0   Min.   :10.60  
 #>  1st Qu.:12.00   1st Qu.:49.80   1st Qu.:158.0   1st Qu.:17.50  
