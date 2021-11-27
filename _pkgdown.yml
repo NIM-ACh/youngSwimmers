@@ -27,6 +27,7 @@ navbar:
       text: Documentation
       href: reference/index.html
     articles:
+      icon: fa fa-fw fa-book fa-lg
       text: Articles
       menu:
       - text: data usage
