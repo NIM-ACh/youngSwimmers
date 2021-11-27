@@ -1,0 +1,14 @@
+Package: youngSwimmers
+Title: Elite young swimmers
+Version: 0.0.0.9000
+Authors@R: 
+    person("Matías", "Castillo Aguilar", , "matcasti@umag.cl", role = c("aut", "cre"),
+           comment = c(ORCID = "0000-0001-7291-247X"))
+Description: Data from the young elite swimmers study.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Depends: 
+    R (>= 2.10)
+LazyData: true
