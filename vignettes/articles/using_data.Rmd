@@ -58,7 +58,7 @@ Now lets try our custom function to get the mean and standard deviation of weigh
 youngswimmers[, tapply(weight, sex, my_mean_and_sd, simplify = FALSE), period]
 ```
 
-You can replace weigth for any of the variables available in the dataset. For details on the dataset, check the documentation on `youngSwimmers::youngswimmers`.
+You can replace weigth for any of the variables available in the dataset. For details on the dataset, check the [documentation](https://nim-ach.github.io/youngSwimmers/reference/youngSwimmers.html).
 
 # Plot the data
 
