@@ -12,18 +12,17 @@ stable](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://
 status](https://www.r-pkg.org/badges/version/youngSwimmers)](https://CRAN.R-project.org/package=youngSwimmers)
 <!-- badges: end -->
 
-This <i class="fab fa-r-project"></i> package contains complementary
-tools for research reproducibility and exploratory data analysis for
-young elite swimmers study (link to original study
+This is an `R` package that contains complementary tools for research
+reproducibility and exploratory data analysis for young elite swimmers
+study (link to original study
 [here](https://doi.org/10.3389/fphys.2021.769085)).
 
 ## About <i class="fab fa-r-project"></i>
 
-<i class="fab fa-r-project"></i> is a high-level statistical programming
-language used for data analysis, as well for development creating
-software, websites, reports, applications, e-books, etc. For more info
-you can visit the [R-project](https://www.r-project.org/about.html)
-site.
+`R` is a high-level statistical programming language used for data
+analysis, as well for development creating software, websites, reports,
+applications, e-books, etc. For more info you can visit the
+[R-project](https://www.r-project.org/about.html) site.
 
 ## Installation
 
@@ -43,7 +42,7 @@ statistics:
 ``` r
 library(youngSwimmers) # Load the package
 
-summary(youngswimmers[, 4:6])
+summary(swimmers[, 4:6])
 #>       age            weight          height     
 #>  Min.   :10.00   Min.   :33.70   Min.   :147.0  
 #>  1st Qu.:12.00   1st Qu.:49.80   1st Qu.:158.0  

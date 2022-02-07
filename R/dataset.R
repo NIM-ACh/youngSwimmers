@@ -37,4 +37,4 @@
 #'
 #' @source
 #' <https://doi.org/10.3389/fphys.2021.769085>
-"youngswimmers"
+"swimmers"
