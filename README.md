@@ -1,7 +1,7 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# youngSwimmers
+# <img src="man/figures/hex-med.png" width="25%" align="right"/> youngSwimmers
 
 <!-- badges: start -->
 
@@ -54,14 +54,14 @@ summary(swimmers[, 4:6])
 ```
 
 For more information on how to use the package and the data within,
-please visit the section [“Using the youngswimmers
+please visit the section [“Using the `swimmers`
 dataset”](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html)
 from our website. There you will find information for computing
 descriptive statistics and plotting functionalities.
 
 ## Citation
 
-To cite this package, run the next line of code:
+To cite this package, run the next line of code in your `R` console:
 
 ``` r
 citation("youngSwimmers")

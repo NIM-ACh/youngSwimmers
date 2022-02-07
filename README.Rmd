@@ -13,7 +13,8 @@ knitr::opts_chunk$set(
 )
 ```
 
-# youngSwimmers
+<img src="man/figures/hex-med.png" width="25%" align="right"/> youngSwimmers
+==================================================================
 
 <!-- badges: start -->
 [![R-CMD-check](https://github.com/NIM-ACh/youngSwimmers/workflows/R-CMD-check/badge.svg)](https://github.com/NIM-ACh/youngSwimmers/actions)
@@ -46,11 +47,11 @@ library(youngSwimmers) # Load the package
 summary(swimmers[, 4:6])
 ```
 
-For more information on how to use the package and the data within, please visit the section ["Using the youngswimmers dataset"](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html) from our website. There you will find information for computing descriptive statistics and plotting functionalities.
+For more information on how to use the package and the data within, please visit the section ["Using the `swimmers` dataset"](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html) from our website. There you will find information for computing descriptive statistics and plotting functionalities.
 
 ## Citation
 
-To cite this package, run the next line of code:
+To cite this package, run the next line of code in your `R` console:
 
 ```r
 citation("youngSwimmers")

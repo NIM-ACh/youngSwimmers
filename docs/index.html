@@ -56,9 +56,10 @@
   </a>
   <div class="dropdown-menu" aria-labelledby="dropdown--articles">
     <h6 class="dropdown-header" data-toc-skip>Data usage</h6>
-    <a class="dropdown-item" href="articles/articles/using_data.html">Using the youngswimmers dataset</a>
+    <a class="dropdown-item" href="articles/using_data.html">Using the `swimmers` dataset</a>
     <h6 class="dropdown-header" data-toc-skip>External links</h6>
     <a class="external-link dropdown-item" href="https://doi.org/10.3389/fphys.2021.769085">Original paper</a>
+    <a class="external-link dropdown-item" href="https://nimach.org">NIM-ACh research group</a>
   </div>
 </li>
       </ul>
@@ -87,16 +88,17 @@
 </nav><div class="container template-home">
 <div class="row">
   <main id="main" class="col-md-9"><div class="section level1">
-<div class="page-header"><h1 id="youngswimmers">youngSwimmers<a class="anchor" aria-label="anchor" href="#youngswimmers"></a>
+<div class="page-header"><h1 id="-youngswimmers">
+<img src="reference/figures/hex-med.png" width="25%" align="right"> youngSwimmers<a class="anchor" aria-label="anchor" href="#-youngswimmers"></a>
 </h1></div>
 <!-- badges: start -->
 
-<p>This <i class="fab fa-r-project"></i> package contains complementary tools for research reproducibility and exploratory data analysis for young elite swimmers study (link to original study <a href="https://doi.org/10.3389/fphys.2021.769085" class="external-link">here</a>).</p>
+<p>This is an <code>R</code> package that contains complementary tools for research reproducibility and exploratory data analysis for young elite swimmers study (link to original study <a href="https://doi.org/10.3389/fphys.2021.769085" class="external-link">here</a>).</p>
 <div class="section level2">
 <h2 id="about-">About <i class="fab fa-r-project"></i>
 <a class="anchor" aria-label="anchor" href="#about-"></a>
 </h2>
-<p><i class="fab fa-r-project"></i> is a high-level statistical programming language used for data analysis, as well for development creating software, websites, reports, applications, e-books, etc. For more info you can visit the <a href="https://www.r-project.org/about.html" class="external-link">R-project</a> site.</p>
+<p><code>R</code> is a high-level statistical programming language used for data analysis, as well for development creating software, websites, reports, applications, e-books, etc. For more info you can visit the <a href="https://www.r-project.org/about.html" class="external-link">R-project</a> site.</p>
 </div>
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
@@ -113,7 +115,7 @@
 <div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/NIM-ACh/youngSwimmers" class="external-link">youngSwimmers</a></span><span class="op">)</span> <span class="co"># Load the package</span>
 
-<span class="fu"><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">youngswimmers</span><span class="op">[</span>, <span class="fl">4</span><span class="op">:</span><span class="fl">6</span><span class="op">]</span><span class="op">)</span>
+<span class="fu"><a href="https://rdrr.io/r/base/summary.html" class="external-link">summary</a></span><span class="op">(</span><span class="va">swimmers</span><span class="op">[</span>, <span class="fl">4</span><span class="op">:</span><span class="fl">6</span><span class="op">]</span><span class="op">)</span>
 <span class="co">#&gt;       age            weight          height     </span>
 <span class="co">#&gt;  Min.   :10.00   Min.   :33.70   Min.   :147.0  </span>
 <span class="co">#&gt;  1st Qu.:12.00   1st Qu.:49.80   1st Qu.:158.0  </span>
@@ -122,12 +124,12 @@
 <span class="co">#&gt;  3rd Qu.:15.00   3rd Qu.:63.20   3rd Qu.:167.0  </span>
 <span class="co">#&gt;  Max.   :16.00   Max.   :80.10   Max.   :176.0  </span>
 <span class="co">#&gt;                  NA's   :9</span></code></pre></div>
-<p>For more information on how to use the package and the data within, please visit the section <a href="https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html">“Using the youngswimmers dataset”</a> from our website. There you will find information for computing descriptive statistics and plotting functionalities.</p>
+<p>For more information on how to use the package and the data within, please visit the section <a href="https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html">“Using the <code>swimmers</code> dataset”</a> from our website. There you will find information for computing descriptive statistics and plotting functionalities.</p>
 </div>
 <div class="section level2">
 <h2 id="citation">Citation<a class="anchor" aria-label="anchor" href="#citation"></a>
 </h2>
-<p>To cite this package, run the next line of code:</p>
+<p>To cite this package, run the next line of code in your <code>R</code> console:</p>
 <div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"youngSwimmers"</span><span class="op">)</span></code></pre></div>
 <p>And you will get the next output:</p>

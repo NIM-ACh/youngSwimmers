@@ -7,9 +7,6 @@
     <loc>https://nim-ach.github.io/youngSwimmers/LICENSE.html</loc>
   </url>
   <url>
-    <loc>https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html</loc>
-  </url>
-  <url>
     <loc>https://nim-ach.github.io/youngSwimmers/articles/index.html</loc>
   </url>
   <url>
@@ -28,9 +25,9 @@
     <loc>https://nim-ach.github.io/youngSwimmers/reference/index.html</loc>
   </url>
   <url>
-    <loc>https://nim-ach.github.io/youngSwimmers/reference/youngSwimmers-package.html</loc>
+    <loc>https://nim-ach.github.io/youngSwimmers/reference/swimmers.html</loc>
   </url>
   <url>
-    <loc>https://nim-ach.github.io/youngSwimmers/reference/youngswimmers.html</loc>
+    <loc>https://nim-ach.github.io/youngSwimmers/reference/youngSwimmers-package.html</loc>
   </url>
 </urlset>

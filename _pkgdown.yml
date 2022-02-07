@@ -25,11 +25,13 @@ navbar:
       text: Articles
       menu:
       - text: Data usage
-      - text: Using the youngswimmers dataset
-        href: articles/articles/using_data.html
+      - text: Using the `swimmers` dataset
+        href: articles/using_data.html
       - text: External links
       - text: Original paper
         href: https://doi.org/10.3389/fphys.2021.769085
+      - text: NIM-ACh research group
+        href: https://nimach.org
 
     news:
       icon: fas fa-history fa-lg
@@ -42,7 +44,7 @@ navbar:
 reference:
 - title: All functions
 - subtitle: Dataset
-  contents: youngswimmers
+  contents: swimmers
 
 authors:
   footer:
