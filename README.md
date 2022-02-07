@@ -31,7 +31,7 @@ You can install the latest development version of youngSwimmers from
 
 ``` r
 # install.packages("devtools")
-devtools::install_github("NIM-ACh/youngSwimmers")
+devtools::install_github("nim-ach/youngSwimmers")
 ```
 
 ## Example
