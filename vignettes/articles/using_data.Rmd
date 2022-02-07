@@ -1,0 +1,89 @@
+---
+title: "Using the youngswimmers dataset"
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  warning = FALSE,
+  message = FALSE
+)
+```
+
+```{r setup}
+library(youngSwimmers)
+```
+
+# Summary statistics
+
+For summary statistics like mean and standard deviation you can use the base function `mean()` and `sd()`, for median and interquartile range you may use `median()` and `IQR()`. 
+
+But because the data is in [long format](https://en.wikipedia.org/wiki/Wide_and_narrow_data) you must consider its structure in order to analyse it properly.
+
+Lets explore the mean weight for each time period. For that we can use `data.table` for ease of use (for details on data.table please see [this](https://rdatatable.gitlab.io/data.table/)). It is worth noting that the `data.table` package is imported directly into the package when is loaded.
+
+```{r}
+youngswimmers[, .(mean_weight = mean(weight, na.rm = TRUE)), period]
+```
+
+But what if we want the mean weight between males and females for each time period? We could write it this way. For that we will use `tapply()` (for nested operations).
+
+```{r}
+youngswimmers[, tapply(weight, sex, mean, na.rm = TRUE, simplify = FALSE), period]
+```
+
+But we can pass any function that we want into `tapply()` (that returns an object of length one). Lets try create a custom function thah computes the mean and standard deviation.
+
+```{r}
+my_mean_and_sd <- function(x) {
+  x <- x[!is.na(x)] #remove missing values
+  
+  mu <- mean(x) # get the mean of x
+  sigma <- sd(x) # and standard deviation from x
+  
+  # We round values into 1 decimal place
+  mu <- round(mu, digits = 1)
+  sigma <- round(sigma, digits = 1)
+  
+  result <- paste(mu, "±", sigma) # finally we merge both results into one string
+  
+  return(result) # and get back the results
+}
+```
+
+Now lets try our custom function to get the mean and standard deviation of weight between males and females for each time period.
+
+```{r}
+youngswimmers[, tapply(weight, sex, my_mean_and_sd, simplify = FALSE), period]
+```
+
+You can replace weigth for any of the variables available in the dataset. For details on the dataset, check the [documentation](https://nim-ach.github.io/youngSwimmers/reference/youngSwimmers.html).
+
+# Plot the data
+
+For plotting you can use your favourite library (ggplot2, lattice, base-r, etc). Lets try an example with base-r plotting system.
+
+For this example lets plot the change of mean weight across time periods between males and females.
+
+```{r}
+# Get variables (first bracket) and then drop missing values (second bracket)
+plot_data <- youngswimmers[, .(sex, period, weight)][, na.omit(.SD)] 
+
+# Plot data using the mean
+with(plot_data, interaction.plot(period, sex, weight, fun = mean))
+# Now plot data using the median
+with(plot_data, interaction.plot(period, sex, weight, fun = median))
+```
+
+Quite an interesting picture! Now lets try a boxplot of weight across time grouped by sex (sounds hard to do, but not really). Here we will use `ggplot2` package, for details see [this](https://ggplot2.tidyverse.org).
+
+```{r}
+# First load ggplot2
+library(ggplot2)
+
+ggplot(youngswimmers, aes(x = period, y = weight, fill = sex)) +
+  geom_boxplot()
+```
+
+In just two lines of code we reproduce an awesome and informative graph. `ggplot2` is a powerful library based on *The Grammar of Graphics*.

@@ -1,0 +1,17 @@
+citHeader("To cite youngSwimmers in publications use:")
+
+citEntry(
+  entry    = "Article",
+  title    = {"Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study"},
+  author   = c(person("Matías", "Castillo-Aguilar"), person("Pablo", "Valdés-Badilla"), person("Tomás", "Herrera-Valenzuela"), person("Eduardo", "Guzmán-Muñoz"), person("Pedro", "Delgado-Floody"), person("David Cristóbal", "Andrade"), person("Michele M.", "Moraes"), person("Rosa M. E.", "Arantes"), person("Cristian", "Núñez-Espinosa")),
+  journal  = {"Frontiers in Physiology"},
+  year     = {2021},
+  volume   = {12},
+  pages    = {1989},
+  url      = {"https://www.frontiersin.org/article/10.3389/fphys.2021.769085"},
+  doi      = {"10.3389/fphys.2021.769085"},
+  issn     = {"1664-042X"},
+  textVersion = paste(
+  "Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME and Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study. Front. Physiol. 12:769085. doi: 10.3389/fphys.2021.769085"
+  )
+)
