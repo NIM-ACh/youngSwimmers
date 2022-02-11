@@ -22,14 +22,14 @@ Useful links:
 
 Authors:
 \itemize{
-  \item Pablo Valdés-Badilla
-  \item Tomás Herrera-Valenzuela
-  \item Eduardo Guzmán-Muñoz
-  \item Pedro Delgado-Floody
+  \item Pablo Valdés Badilla
+  \item Tomás Herrera Valenzuela
+  \item Eduardo Guzmán Muñoz
+  \item Pedro Delgado Floody
   \item David Cristóbal Andrade
   \item Michele M. Moraes
   \item Rosa M. E. Arantes
-  \item Cristian Núñez-Espinosa
+  \item Cristian Núñez Espinosa
 }
 
 }

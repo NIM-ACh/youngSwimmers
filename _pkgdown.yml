@@ -50,6 +50,8 @@ authors:
   footer:
     roles: [cre]
     text: "Maintained by"
+  sidebar:
+    roles: [cre]
 
 footer:
   structure:

@@ -22,15 +22,15 @@ knitr::opts_chunk$set(
 [![CRAN status](https://www.r-pkg.org/badges/version/youngSwimmers)](https://CRAN.R-project.org/package=youngSwimmers)
 <!-- badges: end -->
 
-This is an `R` package that contains complementary tools for research reproducibility and exploratory data analysis for young elite swimmers study (link to original study [here](https://doi.org/10.3389/fphys.2021.769085)).
+This is an `R` package that contains the data used for the young swimmers [study](https://doi.org/10.3389/fphys.2021.769085), which aims to be a complementary tool for research reproducibility and exploratory data analysis.
 
 ## About <i class="fab fa-r-project"></i>
 
-`R` is a high-level statistical programming language used for data analysis, as well for development creating software, websites, reports, applications, e-books, etc. For more info you can visit the [R-project](https://www.r-project.org/about.html) site.
+[`R`](https://www.r-project.org/about.html) is a high-level statistical programming language used for data analysis, as well for development creating software, websites, reports, applications, e-books, etc.
 
 ## Installation
 
-You can install the latest development version of youngSwimmers from [GitHub](https://github.com/) with:
+You can install the latest development version of `youngSwimmers` from [GitHub](https://github.com/) with:
 
 ``` r
 # install.packages("devtools")
@@ -39,27 +39,24 @@ devtools::install_github("nim-ach/youngSwimmers")
 
 ## Example
 
-This is a basic example which shows you how to access summary statistics:
+This is a basic example which shows you how to access the dataset:
 
 ```{r example}
 library(youngSwimmers) # Load the package
 
-summary(swimmers[, 4:6])
+swimmers[, 1:6] # Print columns 1 to 6
 ```
 
-For more information on how to use the package and the data within, please visit the section ["Using the `swimmers` dataset"](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html) from our website. There you will find information for computing descriptive statistics and plotting functionalities.
+For more examples on how to use the dataset, please visit the section ["Using the `swimmers` dataset"](https://nim-ach.github.io/youngSwimmers/articles/articles/using_data.html) from our website. There you will find information for computing descriptive statistics and plotting functionalities.
 
 ## Citation
 
-To cite this package, run the next line of code in your `R` console:
+To cite the dataset please use:
 
-```r
+Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME and Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study. Front. Physiol. 12:769085. doi: 10.3389/fphys.2021.769085
+
+Or run from your `R` console:
+
+```{r}
 citation("youngSwimmers")
 ```
-
-And you will get the next output:
-
-```{r, echo=FALSE, comment=""}
-citation("youngSwimmers")
-```
-

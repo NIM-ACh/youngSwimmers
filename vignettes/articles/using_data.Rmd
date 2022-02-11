@@ -58,7 +58,7 @@ Now lets try our custom function to get the mean and standard deviation of weigh
 swimmers[, tapply(weight, sex, my_mean_and_sd, simplify = FALSE), period]
 ```
 
-You can replace weigth for any of the variables available in the dataset. For details on the dataset, check the [documentation](https://nim-ach.github.io/youngSwimmers/reference/youngSwimmers.html).
+You can replace the variable `weigth` for any of the variables available in the dataset. For details on the dataset, check the [documentation](https://nim-ach.github.io/youngSwimmers/reference/youngSwimmers.html).
 
 # Plot the data
 
@@ -79,11 +79,11 @@ with(plot_data, interaction.plot(period, sex, weight, fun = median))
 Quite an interesting picture! Now lets try a boxplot of weight across time grouped by sex (sounds hard to do, but not really). Here we will use `ggplot2` package, for details see [this](https://ggplot2.tidyverse.org).
 
 ```{r}
-# First load ggplot2
+# install.packages("ggplot2")
 library(ggplot2)
 
 ggplot(swimmers, aes(x = period, y = weight, fill = sex)) +
   geom_boxplot()
 ```
 
-In just two lines of code we reproduce an awesome and informative graph. `ggplot2` is a powerful library based on *The Grammar of Graphics*.
+In just two lines of code we reproduce an awesome and informative graph!
