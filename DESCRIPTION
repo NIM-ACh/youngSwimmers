@@ -1,6 +1,6 @@
 Package: youngSwimmers
 Title: Young swimmers study
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: 
     c(
     person("Matías", "Castillo Aguilar", , "matcasti@umag.cl", role = c("aut", "cre"),
