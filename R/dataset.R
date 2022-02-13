@@ -1,7 +1,7 @@
 #' Data from the young elite swimmers study
 #'
 #' This is the data used for the young elite swimmers
-#' study (Castillo-Aguilar et al., 2021). It contains records from
+#' study (Castillo-Aguilar et al. 2021). It contains records from
 #' 26 competitive swimmers from ages 10 to 16 on 5 different
 #' competitive time periods.
 #'

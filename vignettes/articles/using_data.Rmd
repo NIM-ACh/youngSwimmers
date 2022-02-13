@@ -33,7 +33,7 @@ But what if we want the mean weight between males and females for each time peri
 swimmers[, tapply(weight, sex, mean, na.rm = TRUE, simplify = FALSE), period]
 ```
 
-But we can pass any function that we want into `tapply()` (that returns an object of length one). Lets try create a custom function thah computes the mean and standard deviation.
+But we can pass any function that we want into `tapply()` (that returns an object of length one). Lets try create a custom function that computes the mean and standard deviation.
 
 ```{r}
 my_mean_and_sd <- function(x) {

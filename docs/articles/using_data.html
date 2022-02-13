@@ -26,7 +26,7 @@
     
     <a class="navbar-brand me-2" href="../index.html">youngSwimmers</a>
 
-    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.0.9000</small>
+    <small class="nav-text text-muted me-auto" data-bs-toggle="tooltip" data-bs-placement="bottom" title="">0.0.1</small>
 
     
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
@@ -126,7 +126,7 @@
 <span class="co">#&gt; 3:    t-2 56.00000 55.40000</span>
 <span class="co">#&gt; 4:    t-3 55.83333 55.51667</span>
 <span class="co">#&gt; 5:    t-4 54.94545 55.88333</span></code></pre></div>
-<p>But we can pass any function that we want into <code><a href="https://rdrr.io/r/base/tapply.html" class="external-link">tapply()</a></code> (that returns an object of length one). Lets try create a custom function thah computes the mean and standard deviation.</p>
+<p>But we can pass any function that we want into <code><a href="https://rdrr.io/r/base/tapply.html" class="external-link">tapply()</a></code> (that returns an object of length one). Lets try create a custom function that computes the mean and standard deviation.</p>
 <div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="va">my_mean_and_sd</span> <span class="op">&lt;-</span> <span class="kw">function</span><span class="op">(</span><span class="va">x</span><span class="op">)</span> <span class="op">{</span>
   <span class="va">x</span> <span class="op">&lt;-</span> <span class="va">x</span><span class="op">[</span><span class="op">!</span><span class="fu"><a href="https://rdrr.io/r/base/NA.html" class="external-link">is.na</a></span><span class="op">(</span><span class="va">x</span><span class="op">)</span><span class="op">]</span> <span class="co">#remove missing values</span>
