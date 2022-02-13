@@ -8,7 +8,7 @@ citEntry(
   year     = {2021},
   volume   = {12},
   pages    = {1989},
-  url      = {"https://www.frontiersin.org/article/10.3389/fphys.2021.769085"},
+  url      = {"https://www.frontiersin.org/articles/10.3389/fphys.2021.769085/full"},
   doi      = {"10.3389/fphys.2021.769085"},
   issn     = {"1664-042X"},
   textVersion = paste(

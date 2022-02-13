@@ -11,9 +11,9 @@ Data from the young elite swimmers study.
 \seealso{
 Useful links:
 \itemize{
-  \item \url{https://github.com/NIM-ACh/youngSwimmers}
-  \item \url{https://nim-ach.github.io/youngSwimmers}
-  \item Report bugs at \url{https://github.com/NIM-ACh/youngSwimmers/issues}
+  \item \url{https://github.com/NIM-ACh/youngSwimmers/}
+  \item \url{https://nim-ach.github.io/youngSwimmers/}
+  \item Report bugs at \url{https://github.com/NIM-ACh/youngSwimmers/issues/}
 }
 
 }
