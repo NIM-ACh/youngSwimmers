@@ -103,8 +103,11 @@
 <div class="section level2">
 <h2 id="installation">Installation<a class="anchor" aria-label="anchor" href="#installation"></a>
 </h2>
-<p>You can install the latest development version of <code>youngSwimmers</code> from <a href="https://github.com/" class="external-link">GitHub</a> with:</p>
+<p>You can install the released version of <code>youngSwimmers</code> from <a href="https://CRAN.R-project.org/package=youngSwimmers" class="external-link">CRAN</a> with:</p>
 <div class="sourceCode" id="cb1"><pre class="downlit sourceCode r">
+<code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/install.packages.html" class="external-link">install.packages</a></span><span class="op">(</span><span class="st">"youngSwimmers"</span><span class="op">)</span></code></pre></div>
+<p>To install the latest development version from <a href="https://github.com/" class="external-link">GitHub</a> use:</p>
+<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="co"># install.packages("devtools")</span>
 <span class="fu">devtools</span><span class="fu">::</span><span class="fu"><a href="https://devtools.r-lib.org/reference/remote-reexports.html" class="external-link">install_github</a></span><span class="op">(</span><span class="st">"nim-ach/youngSwimmers"</span><span class="op">)</span></code></pre></div>
 </div>
@@ -112,7 +115,7 @@
 <h2 id="example">Example<a class="anchor" aria-label="anchor" href="#example"></a>
 </h2>
 <p>This is a basic example which shows you how to access the dataset:</p>
-<div class="sourceCode" id="cb2"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="kw"><a href="https://rdrr.io/r/base/library.html" class="external-link">library</a></span><span class="op">(</span><span class="va"><a href="https://github.com/NIM-ACh/youngSwimmers/" class="external-link">youngSwimmers</a></span><span class="op">)</span> <span class="co"># Load the package</span>
 
 <span class="va">swimmers</span><span class="op">[</span>, <span class="fl">1</span><span class="op">:</span><span class="fl">6</span><span class="op">]</span> <span class="co"># Print columns 1 to 6</span>
@@ -136,7 +139,7 @@
 <p>To cite the dataset please use:</p>
 <p>Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME and Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study. Front. Physiol. 12:769085. doi: 10.3389/fphys.2021.769085</p>
 <p>Or run from your <code>R</code> console:</p>
-<div class="sourceCode" id="cb3"><pre class="downlit sourceCode r">
+<div class="sourceCode" id="cb4"><pre class="downlit sourceCode r">
 <code class="sourceCode R"><span class="fu"><a href="https://rdrr.io/r/utils/citation.html" class="external-link">citation</a></span><span class="op">(</span><span class="st">"youngSwimmers"</span><span class="op">)</span>
 <span class="co">#&gt; </span>
 <span class="co">#&gt; To cite youngSwimmers in publications use:</span>
@@ -166,6 +169,7 @@
   </main><aside class="col-md-3"><div class="links">
 <h2 data-toc-skip>Links</h2>
 <ul class="list-unstyled">
+<li><a href="https://cloud.r-project.org/package=youngSwimmers" class="external-link">View on CRAN</a></li>
 <li><a href="https://github.com/NIM-ACh/youngSwimmers/" class="external-link">Browse source code</a></li>
 <li><a href="https://github.com/NIM-ACh/youngSwimmers/issues/" class="external-link">Report a bug</a></li>
 </ul>

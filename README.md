@@ -25,8 +25,15 @@ creating software, websites, reports, applications, e-books, etc.
 
 ## Installation
 
-You can install the latest development version of `youngSwimmers` from
-[GitHub](https://github.com/) with:
+You can install the released version of `youngSwimmers` from
+[CRAN](https://CRAN.R-project.org/package=youngSwimmers) with:
+
+``` r
+install.packages("youngSwimmers")
+```
+
+To install the latest development version from
+[GitHub](https://github.com/) use:
 
 ``` r
 # install.packages("devtools")
