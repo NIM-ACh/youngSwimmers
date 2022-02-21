@@ -59,7 +59,7 @@ For more examples on how to use the dataset, please visit the section ["Using th
 
 To cite the dataset please use:
 
-Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME and Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study. Front. Physiol. 12:769085. doi: 10.3389/fphys.2021.769085
+Castillo Aguilar, Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M., Arantes, R., & Núñez-Espinosa, C. (2022). youngSwimmers: Dataset from the young elite swimmers study (0.0.1) [R]. https://CRAN.R-project.org/package=youngSwimmers
 
 Or run from your `R` console:
 

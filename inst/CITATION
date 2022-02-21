@@ -1,6 +1,23 @@
-citHeader("To cite youngSwimmers in publications use:")
+vrs <- packageVersion("youngSwimmers")
+year <- format(packageDate("youngSwimmers"), "%Y")
+
+citHeader("To cite in publications you may use one of the following:")
 
 citEntry(
+  header = "R Package: youngSwimmers",
+  entry    = "Manual",
+  title    = {"youngSwimmers: Dataset from the young elite swimmers study"},
+  author   = c(person("Matías", "Castillo-Aguilar"), person("Pablo", "Valdés-Badilla"), person("Tomás", "Herrera-Valenzuela"), person("Eduardo", "Guzmán-Muñoz"), person("Pedro", "Delgado-Floody"), person("David Cristóbal", "Andrade"), person("Michele M.", "Moraes"), person("Rosa M. E.", "Arantes"), person("Cristian", "Núñez-Espinosa")),
+  year     = {year},
+  note = {paste("R package version", vrs)},
+  url      = {"https://CRAN.R-project.org/package=youngSwimmers"},
+  textVersion = paste0(
+  "Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M., Arantes, R. M. E., & Núñez-Espinosa, C. (", year, "). youngSwimmers: Dataset from the young elite swimmers study (", vrs, ") [R]. https://CRAN.R-project.org/package=youngSwimmers"
+  )
+)
+
+citEntry(
+  header = "Original research paper",
   entry    = "Article",
   title    = {"Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study"},
   author   = c(person("Matías", "Castillo-Aguilar"), person("Pablo", "Valdés-Badilla"), person("Tomás", "Herrera-Valenzuela"), person("Eduardo", "Guzmán-Muñoz"), person("Pedro", "Delgado-Floody"), person("David Cristóbal", "Andrade"), person("Michele M.", "Moraes"), person("Rosa M. E.", "Arantes"), person("Cristian", "Núñez-Espinosa")),
@@ -12,6 +29,7 @@ citEntry(
   doi      = {"10.3389/fphys.2021.769085"},
   issn     = {"1664-042X"},
   textVersion = paste(
-  "Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME and Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study. Front. Physiol. 12:769085. doi: 10.3389/fphys.2021.769085"
+  "Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M., Arantes, R. M. E., & Núñez-Espinosa, C. (2021). Cardiac autonomic modulation in response to muscle fatigue and sex differences during consecutive competition periods in young swimmers: A longitudinal study. Frontiers in Physiology, 12, 769085. https://doi.org/10.3389/fphys.2021.769085"
   )
 )
+
