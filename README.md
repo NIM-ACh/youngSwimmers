@@ -72,38 +72,38 @@ descriptive statistics and plotting functionalities.
 
 To cite the dataset please use:
 
-Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T, Guzmán-Muñoz
-E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME and
-Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in Response to
-Muscle Fatigue and Sex Differences During Consecutive Competition
-Periods in Young Swimmers: A Longitudinal Study. Front. Physiol.
-12:769085. doi: 10.3389/fphys.2021.769085
+Castillo Aguilar, M. Valdés-Badilla, P., Herrera-Valenzuela, T.,
+Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M.,
+Arantes, R., & Núñez-Espinosa, C. (2022). youngSwimmers: Dataset from
+the young elite swimmers study (0.0.1) \[R\].
+<https://CRAN.R-project.org/package=youngSwimmers>
 
 Or run from your `R` console:
 
 ``` r
 citation("youngSwimmers")
 #> 
-#> To cite youngSwimmers in publications use:
+#> To cite in publications you may use one of the following:
 #> 
-#>   Castillo-Aguilar M, Valdés-Badilla P, Herrera-Valenzuela T,
-#>   Guzmán-Muñoz E, Delgado-Floody P, Andrade DC, Moraes MM, Arantes RME
-#>   and Núñez-Espinosa C. (2021). Cardiac Autonomic Modulation in
-#>   Response to Muscle Fatigue and Sex Differences During Consecutive
-#>   Competition Periods in Young Swimmers: A Longitudinal Study. Front.
-#>   Physiol. 12:769085. doi: 10.3389/fphys.2021.769085
+#> R Package: youngSwimmers
 #> 
-#> A BibTeX entry for LaTeX users is
+#>   Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T.,
+#>   Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M.,
+#>   Arantes, R. M. E., & Núñez-Espinosa, C. (2022). youngSwimmers:
+#>   Dataset from the young elite swimmers study (0.0.1.9000) [R].
+#>   https://CRAN.R-project.org/package=youngSwimmers
 #> 
-#>   @Article{,
-#>     title = {Cardiac Autonomic Modulation in Response to Muscle Fatigue and Sex Differences During Consecutive Competition Periods in Young Swimmers: A Longitudinal Study},
-#>     author = {Matías Castillo-Aguilar and Pablo Valdés-Badilla and Tomás Herrera-Valenzuela and Eduardo Guzmán-Muñoz and Pedro Delgado-Floody and David Cristóbal Andrade and Michele M. Moraes and Rosa M. E. Arantes and Cristian Núñez-Espinosa},
-#>     journal = {Frontiers in Physiology},
-#>     year = {2021},
-#>     volume = {12},
-#>     pages = {1989},
-#>     url = {https://www.frontiersin.org/articles/10.3389/fphys.2021.769085/full},
-#>     doi = {10.3389/fphys.2021.769085},
-#>     issn = {1664-042X},
-#>   }
+#> Original research paper
+#> 
+#>   Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T.,
+#>   Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M.,
+#>   Arantes, R. M. E., & Núñez-Espinosa, C. (2021). Cardiac autonomic
+#>   modulation in response to muscle fatigue and sex differences during
+#>   consecutive competition periods in young swimmers: A longitudinal
+#>   study. Frontiers in Physiology, 12, 769085.
+#>   https://doi.org/10.3389/fphys.2021.769085
+#> 
+#> To see these entries in BibTeX format, use 'print(<citation>,
+#> bibtex=TRUE)', 'toBibtex(.)', or set
+#> 'options(citation.bibtex.max=999)'.
 ```

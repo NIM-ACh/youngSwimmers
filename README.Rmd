@@ -59,7 +59,7 @@ For more examples on how to use the dataset, please visit the section ["Using th
 
 To cite the dataset please use:
 
-Castillo Aguilar, Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M., Arantes, R., & Núñez-Espinosa, C. (2022). youngSwimmers: Dataset from the young elite swimmers study (0.0.1) [R]. https://CRAN.R-project.org/package=youngSwimmers
+Castillo Aguilar, M. Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M., Arantes, R., & Núñez-Espinosa, C. (2022). youngSwimmers: Dataset from the young elite swimmers study (0.0.1) [R]. https://CRAN.R-project.org/package=youngSwimmers
 
 Or run from your `R` console:
 
