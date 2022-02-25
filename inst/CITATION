@@ -1,3 +1,7 @@
+Meta = readRDS(file = system.file("Meta","package.rds", package = "youngSwimmers"))
+Meta = as.list(Meta$DESCRIPTION)
+Year = regmatches(Meta$Built, regexpr("[0-9]{4}", Meta$Built))
+
 citHeader("To cite in publications you may use one of the following:")
 
 citEntry(
@@ -5,11 +9,11 @@ citEntry(
   entry    = "Manual",
   title    = {"youngSwimmers: Dataset from the young elite swimmers study"},
   author   = c(person("Matías", "Castillo-Aguilar"), person("Pablo", "Valdés-Badilla"), person("Tomás", "Herrera-Valenzuela"), person("Eduardo", "Guzmán-Muñoz"), person("Pedro", "Delgado-Floody"), person("David Cristóbal", "Andrade"), person("Michele M.", "Moraes"), person("Rosa M. E.", "Arantes"), person("Cristian", "Núñez-Espinosa")),
-  year     = {format(utils::packageDate("youngSwimmers"), "%Y")},
-  note = {paste("R package version", utils::packageVersion("youngSwimmers"))},
+  year     = {Year},
+  note = {paste("R package version", Meta$Version)},
   url      = {"https://CRAN.R-project.org/package=youngSwimmers"},
   textVersion = paste0(
-  "Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M., Arantes, R. M. E., & Núñez-Espinosa, C. (", format(utils::packageDate("youngSwimmers"), "%Y"), "). youngSwimmers: Dataset from the young elite swimmers study (", utils::packageVersion("youngSwimmers"), ") [R]. https://CRAN.R-project.org/package=youngSwimmers"
+  "Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T., Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M., Arantes, R. M. E., & Núñez-Espinosa, C. (", Year, "). youngSwimmers: Dataset from the young elite swimmers study. R package version ", Meta$Version, ". https://CRAN.R-project.org/package=youngSwimmers"
   )
 )
 
