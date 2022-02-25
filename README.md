@@ -72,10 +72,10 @@ descriptive statistics and plotting functionalities.
 
 To cite the dataset please use:
 
-Castillo Aguilar, M. Valdés-Badilla, P., Herrera-Valenzuela, T.,
-Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M.,
-Arantes, R., & Núñez-Espinosa, C. (2022). youngSwimmers: Dataset from
-the young elite swimmers study (0.0.1) \[R\].
+Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T.,
+Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M.,
+Arantes, R. M. E., & Núñez-Espinosa, C. (2022). youngSwimmers: Dataset
+from the young elite swimmers study. R package version 0.0.1.9000.
 <https://CRAN.R-project.org/package=youngSwimmers>
 
 Or run from your `R` console:
@@ -90,8 +90,8 @@ citation("youngSwimmers")
 #>   Castillo-Aguilar, M., Valdés-Badilla, P., Herrera-Valenzuela, T.,
 #>   Guzmán-Muñoz, E., Delgado-Floody, P., Andrade, D. C., Moraes, M. M.,
 #>   Arantes, R. M. E., & Núñez-Espinosa, C. (2022). youngSwimmers:
-#>   Dataset from the young elite swimmers study (0.0.1.9000) [R].
-#>   https://CRAN.R-project.org/package=youngSwimmers
+#>   Dataset from the young elite swimmers study. R package version
+#>   0.0.1.9000. https://CRAN.R-project.org/package=youngSwimmers
 #> 
 #> Original research paper
 #> 
