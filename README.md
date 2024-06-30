@@ -3,7 +3,7 @@
 
 # <img src="man/figures/hex-med.png" width="25%" align="right"/> youngSwimmers
 
-<!-- badges: start -->
+<!-- badges: start --> 
 
 [![R-CMD-check](https://github.com/NIM-ACh/youngSwimmers/workflows/R-CMD-check/badge.svg)](https://github.com/NIM-ACh/youngSwimmers/actions)
 [![Lifecycle:
